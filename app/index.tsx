@@ -1,6 +1,5 @@
-import { Redirect } from "expo-router"; // CHANGED:
+import { Redirect } from "expo-router";
 
 export default function Index() {
-  // CHANGED:
   return <Redirect href="/(tabs)/home" />;
 }
